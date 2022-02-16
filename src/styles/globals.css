@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0;
+    @apply h-screen;
+    @apply bg-gradient-to-r from-bgColorRed to-bgColorOrange;
+  }
+}
